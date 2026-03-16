@@ -1,6 +1,6 @@
 # osTicket-Homelab
 
-##VM Architecture
+## VM Architecture
 VMware Workstation
 │
 ├── DC01 (existing) — Windows Server 2022
@@ -12,7 +12,7 @@ VMware Workstation
     ├── MySQL
     └── osTicket
 
-##First Few Steps
+## First Few Steps
 Fresh install of Windows Server 2022 on new VM in VMWare Workstation
 Network Adapter Settings 
 → IPv4 Properties
