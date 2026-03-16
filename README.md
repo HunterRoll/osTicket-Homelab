@@ -1,8 +1,8 @@
 # osTicket-Homelab
 
 ## VM Architecture
-VMware Workstation
 ```
+VMware Workstation
 │
 ├── DC01 (existing) — Windows Server 2022
 │   └── Active Directory, DNS, DHCP
