@@ -7,7 +7,7 @@ from scratch as part of an ongoing IT homelab project.
 ```
 VMware Workstation
 │
-├── DC01 — Windows Server 2022
+├── WIN-AJ3IQ5KJNUB — Windows Server 2022
 │   └── Active Directory, DNS, DHCP
 │
 └── OSTICKETMACHINE — Windows Server 2022
@@ -50,7 +50,7 @@ are documented in [SETUP.md](SETUP.md)
 | Web Server | IIS |
 | PHP Version | 8.x Non-Thread Safe x64 |
 | Database | MySQL — osticket |
-| DNS | Managed by DC01 |
+| DNS | Managed by WIN-AJ3IQ5KJNUB |
 
 ## Project Status
 Base installation complete. Currently working on:
