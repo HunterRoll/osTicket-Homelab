@@ -2,6 +2,7 @@
 
 ## VM Architecture
 VMware Workstation
+'''
 │
 ├── DC01 (existing) — Windows Server 2022
 │   └── Active Directory, DNS, DHCP
@@ -11,7 +12,7 @@ VMware Workstation
     ├── PHP
     ├── MySQL
     └── osTicket
-
+'''
 ## First Few Steps
 Fresh install of Windows Server 2022 on new VM in VMWare Workstation
 Network Adapter Settings 
