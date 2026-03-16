@@ -7,11 +7,11 @@ from scratch as part of an ongoing IT homelab project.
 ```
 VMware Workstation
 │
-├── DC01 (existing) — Windows Server 2022
+├── DC01 — Windows Server 2022
 │   └── Active Directory, DNS, DHCP
 │
-└── WEB01 (new VM) — Windows Server 2022 or Ubuntu Server
-    ├── IIS or Apache
+└── OSTICKETMACHINE — Windows Server 2022
+    ├── IIS
     ├── PHP
     ├── MySQL
     └── osTicket
