@@ -9,10 +9,10 @@ All notable changes to this project will be documented here.
 - Completed base osTicket installation and confirmed accessible at http://OSTICKETMACHINE/osticket
 - Verified staff portal accessible at http://OSTICKETMACHINE/osticket/scp
 - Completed post-install cleanup: removed setup directory, set ost-config.php to read only
-- Added DNS A record for OSTICKETMACHINE on DC01 to allow hostname resolution across domain
+- Added DNS A record for OSTICKETMACHINE on WIN-AJ3IQ5KJNUB to allow hostname resolution across domain
 
 ### Fixed
-- Resolved "can't reach this page" error by adding OSTICKETMACHINE A record in DNS Manager on DC01
+- Resolved "can't reach this page" error by adding OSTICKETMACHINE A record in DNS Manager on WIN-AJ3IQ5KJNUB
 
 ---
 
@@ -65,6 +65,6 @@ All notable changes to this project will be documented here.
 ## [0.1.0] - 2026-03-15
 ### Added
 - Created OSTICKETMACHINE VM in VMware Workstation (Windows Server 2022, 40GB thin provisioned, 2GB RAM, 2 cores)
-- Assigned static IP to OSTICKETMACHINE and pointed DNS to DC01 (hunterpractice.local)
+- Assigned static IP to OSTICKETMACHINE and pointed DNS to WIN-AJ3IQ5KJNUB (hunterpractice.local)
 - Joined OSTICKETMACHINE to existing hunterpractice.local domain
 - Installed IIS with CGI enabled via Server Manager Add Roles and Features
