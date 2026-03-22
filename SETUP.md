@@ -14,7 +14,7 @@ including all errors encountered and their resolutions.
 ## Step 1 — Create the OSTICKETMACHINE VM in VMware
 **Settings used:**
 - OS: Windows Server 2022
-- Disk: 40GB (thin provisioned)
+- Disk: 40GB
 - RAM: 2GB
 - CPU: 2 cores
 - Network: same virtual network as WIN-AJ3IQ5KJNUB
@@ -53,7 +53,7 @@ In Server Manager:
 Manage → Add Roles and Features
 → Role-based installation
 → Web Server (IIS)
-→ Role Services → Application Development → CGI ✅ (critical, do not skip)
+→ Role Services → Application Development → CGI ✅
 → Install
 ```
 
