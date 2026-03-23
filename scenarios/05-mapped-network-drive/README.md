@@ -40,7 +40,6 @@ User reported that their Z: drive was visible in File Explorer but returned an a
 ### Step 1 — Receive and Triage Ticket
 - Ticket received from BridgesC via osTicket client portal
 - Assigned ticket to self in SCP
-- Posted internal note: *"User reports Z: drive inaccessible. Beginning standard network share diagnostics will check connectivity, DNS resolution, and share availability."*
  
 ### Step 2 — Verify Network Configuration on COMP1
 Ran IP configuration check to rule out client-side network issues:
@@ -48,7 +47,6 @@ Ran IP configuration check to rule out client-side network issues:
 ipconfig /all
 ```
 - Confirmed IP address, subnet mask, and DNS server were all correct
-- Posted internal note: *"Ran ipconfig /all on COMP1. IP address, subnet mask, and DNS server all appear correct. Network configuration is not the issue."*
  
 ### Step 3 — Test Connectivity to WIN-AJ3IQ5KJNUB
 Pinged the domain controller by hostname to verify basic connectivity:
@@ -56,7 +54,6 @@ Pinged the domain controller by hostname to verify basic connectivity:
 ping WIN-AJ3IQ5KJNUB
 ```
 - Ping successful — confirmed network connectivity between COMP1 and WIN-AJ3IQ5KJNUB
-- Posted internal note: *"Pinged WIN-AJ3IQ5KJNUB successfully. Network connectivity between COMP1 and WIN-AJ3IQ5KJNUB is confirmed. Issue is not network related."*
  
 ### Step 4 — Test DNS Resolution
 Pinged WIN-AJ3IQ5KJNUB by IP address to isolate DNS as a potential cause:
@@ -64,14 +61,12 @@ Pinged WIN-AJ3IQ5KJNUB by IP address to isolate DNS as a potential cause:
 ping 192.168.X.X
 ```
 - Ping by IP successful — confirmed DNS resolution is functioning correctly
-- Posted internal note: *"Pinged WIN-AJ3IQ5KJNUB by IP successfully. DNS resolution also confirmed working. Connectivity is not the cause."*
  
  
 ### Step 5 — Investigate Share Permissions on WIN-AJ3IQ5KJNUB
-- Navigated to `C:\Shared\CompanyFiles` on WIN-AJ3IQ5KJNUB
+- Navigated to `C:\SHARED\CompanyFiles` on WIN-AJ3IQ5KJNUB
 - Right clicked → Properties → Sharing tab → Advanced Sharing → Permissions
 - Found **Deny** permission applied to **HUNTERPRACTICE\Users**
-- Posted internal note: *"Located root cause. Deny permission found applied to HUNTERPRACTICE\Users on CompanyFiles share. Removing Deny permission now."*
  
 ### Step 6 — Restore Correct Permissions
 - Removed the Deny permission from HUNTERPRACTICE\Users
@@ -84,7 +79,6 @@ gpupdate /force
 ### Step 7 — Verify Fix on COMP1
 - Logged into COMP1 as BridgesC
 - Confirmed Z: drive was accessible in File Explorer
-- Confirmed UNC path \\WIN-AJ3IQ5KJNUB\CompanyFiles opened successfully
  
 ### Step 8 — Document and Close Ticket
 - Replied to ticket explaining the issue and resolution
