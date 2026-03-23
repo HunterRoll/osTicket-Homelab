@@ -95,9 +95,9 @@ Print Spooler service was found stopped due to a crash caused by stuck print job
 | ![Description](screenshots/02_research_problem.jpg) | Quick search of error code shows it is a common spooler error |
 | ![Description](screenshots/03_spooler_issue_identified.jpg) | Printer spooler has stopped functioning |
 | ![Description](screenshots/04_print_queue.jpg) | Queue shows one print has been requested |
-| ![Description](screenshots/05_troubleshooting_spooler.jpg) | Command prompts troubleshooting spooler issue |
+| ![Description](screenshots/05_troubleshooting_spooler.jpg) | Command prompts for troubleshooting spooler issue |
 | ![Description](screenshots/06_spooler_running.jpg) | Printer spooler resumed processes |
-| ![Description](screenshots/07_empty_print_queue.jpg) | Print request has been cleared |
+| ![Description](screenshots/07_empty_print_queue.jpg) | Print request has been cleared from queue |
 | ![Description](screenshots/08_printer_issue_fixed.jpg) | Printer spooler issue has been resolved |
  
 ---
