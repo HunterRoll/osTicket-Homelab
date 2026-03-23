@@ -6,7 +6,7 @@ A user submits a request to have Notepad++ installed on their workstation. This 
 ---
  
 ## Environment
-- **Ticketing System:** osTicket (self-hosted on WEB01)
+- **Ticketing System:** osTicket (self-hosted on OSTICKETMACHINE)
 - **Domain:** hunterpractice.local
 - **Domain Controller:** WIN-AJ3IQ5KJNUB (Windows Server 2022)
 - **Client Machine:** COMP1 (domain-joined Windows VM)
