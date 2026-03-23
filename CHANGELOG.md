@@ -3,6 +3,24 @@
 All notable changes to this project will be documented here.
 
 ---
+ 
+## [2.0.0] - 2026-03-22
+### Added
+- Completed Tier 1 help desk scenario practice with full ticket lifecycle documentation
+- Scenario 01: Account Lockout / Password Reset — triggered real domain lockout on COMP1, resolved via ADUC, documented in osTicket
+- Scenario 02: New Employee Onboarding — created new AD user (smiller), placed in Reno OU, assigned group memberships, documented full onboarding checklist
+- Scenario 03: Software Installation Request — simulated software request triage, confirmed GPO software restriction via UAC prompt, installed Notepad++ via admin elevation
+- Scenario 04: Printer Not Working — diagnosed and resolved real error code 0x800706ba by stopping Print Spooler, clearing spool folder, and restarting service
+- Created GitHub repo folder structure for all four scenarios with screenshots and README documentation
+- Added canned responses to osTicket SCP for common resolutions
+ 
+### Configuration
+- Configured Account Lockout Policy in Default Domain Policy (threshold: 3 attempts, duration: manual unlock required)
+- Confirmed GPO propagation to COMP1 via gpresult /r and net accounts
+- Created and linked Software Restriction GPO to restrict standard users from installing software without admin elevation
+- Added COMP1 computer object to USA → Computer OU in ADUC
+ 
+---
 
 ## [1.0.0] - 2026-03-15
 ### Added
