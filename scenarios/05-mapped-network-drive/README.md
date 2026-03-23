@@ -125,7 +125,6 @@ Network connectivity and DNS resolution were confirmed functioning correctly on 
 ## Key Concepts Demonstrated
 - Structured network share troubleshooting methodology
 - ipconfig and ping diagnostic commands
-- UNC path testing for share availability
 - Windows share permission management
 - Deny permission behavior in Windows ACLs
 - GPO mapped drive configuration via Drive Maps preference
