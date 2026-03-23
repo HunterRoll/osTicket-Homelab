@@ -1,7 +1,7 @@
 # Scenario 01 — Account Lockout / Password Reset
  
 ## Overview
-An eployee is unable to log into their workstation after their account was locked due to 3 failed login attempts. This is a very ticket request. 
+An employee is unable to log into their workstation after their account was locked due to 3 failed login attempts. This is a very common ticket request.
  
 ---
  
@@ -75,7 +75,7 @@ Account was located in Active Directory, confirmed as locked due to failed login
 | `04_ticket_response.jpg` | Response to user |
 | `05_ticket_closed.jpg` | Closed ticket |
 | `06_ad_account_unlocked.jpg` | Unlocked the user account in Active Directory |
-| `create_canned_response.jpg` | Creating standard response to similar problems |
+| `create_canned_response.jpg` | Creating a standard response to similar problems |
  
 ---
  
