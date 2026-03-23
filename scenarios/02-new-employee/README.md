@@ -67,7 +67,7 @@ New user account created for Sarah Miller (smiller) in Active Directory. Account
  
 | File | Description |
 |---|---|
-| `01_ticket_creation.jpg` | Manager submitting onboarding request via client portal |
+| ![Description](screenshots/01_ticket_creation.jpg) | Manager submitting onboarding request via client portal |
 | `02_ticket_queue.jpg` | Ticket visible in SCP queue |
 | `03_assign_ticket.jpg` | Assigned ticket to Hunter R |
 | `04_ticket_response.jpg` | Responded to ticket |
