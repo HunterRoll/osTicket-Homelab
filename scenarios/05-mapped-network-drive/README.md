@@ -40,7 +40,7 @@ User reported that their Z: drive was visible in File Explorer but returned an a
 ### Step 1 — Receive and Triage Ticket
 - Ticket received from BridgesC via osTicket client portal
 - Assigned ticket to self in SCP
-- Posted internal note: *"User reports Z: drive inaccessible. Beginning standard network share diagnostics — will check connectivity, DNS resolution, and share availability."*
+- Posted internal note: *"User reports Z: drive inaccessible. Beginning standard network share diagnostics will check connectivity, DNS resolution, and share availability."*
  
 ### Step 2 — Verify Network Configuration on COMP1
 Ran IP configuration check to rule out client-side network issues:
