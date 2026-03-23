@@ -68,13 +68,13 @@ Account was located in Active Directory, confirmed as locked due to failed login
  
 | File | Description |
 |---|---|
-| `01_lockout_error.jpg` | User seeing lockout error |
-| `02_ticket_queue.jpg` | Ticket visible in SCP queue |
-| `03_ticket_assigned.jpg` | Ticket assigned to Hunter R |
-| `04_ticket_response.jpg` | Response to user |
-| `05_ticket_closed.jpg` | Closed ticket |
-| `06_ad_account_unlocked.jpg` | Unlocked the user account in Active Directory |
-| `create_canned_response.jpg` | Creating a standard response to similar problems |
+| ![Description](screenshots/01_lockout_error.jpg) | User seeing lockout error |
+| ![Description](screenshots/02_ticket_queue.jpg) | Ticket visible in SCP queue |
+| ![Description](screenshots/03_ticket_assigned.jpg) | Ticket assigned to Hunter R |
+| ![Description](screenshots/04_ticket_response.jpg) | Response to user |
+| ![Description](screenshots/05_ticket_closed.jpg) | Closed ticket |
+| ![Description](screenshots/06_ad_account_unlocked.jpg) | Unlocked the user account in Active Directory |
+| ![Description](screenshots/create_canned_response.jpg) | Creating a standard response to similar problems |
  
 ---
  
