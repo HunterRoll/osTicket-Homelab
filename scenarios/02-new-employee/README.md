@@ -6,7 +6,7 @@ A manager submits a ticket requesting a new employee account be created before t
 ---
  
 ## Environment
-- **Ticketing System:** osTicket (self-hosted on WEB01)
+- **Ticketing System:** osTicket (self-hosted on OSTICKETMACHINE)
 - **Domain:** hunterpractice.local
 - **Domain Controller:** WIN-AJ3IQ5KJNUB (Windows Server 2022)
 - **New User:** Sarah Miller (smiller)
