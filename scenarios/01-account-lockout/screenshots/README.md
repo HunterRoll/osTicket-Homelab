@@ -8,7 +8,7 @@ An employee is unable to log into their workstation after their account was lock
 ## Environment
 - **Ticketing System:** osTicket (self-hosted on WEB01)
 - **Domain:** hunterpractice.local
-- **Domain Controller:** DC01 (Windows Server 2022)
+- **Domain Controller:** WIN-AJ3IQ5KJNUB (Windows Server 2022)
 - **Client Machine:** COMP1 (domain-joined Windows VM)
 - **Affected User:** C. Bridges (BridgesC)
  
@@ -42,7 +42,7 @@ User attempted to log into COMP1 3 times with the wrong password, triggering the
 - Reviewed user details and identified affected account (BridgesC)
  
 ### Step 2 — Locate Account in Active Directory
-- Opened **Active Directory Users and Computers** on DC01
+- Opened **Active Directory Users and Computers** on WIN-AJ3IQ5KJNUB
 - Located BridgesC under `hunterpractice.local → USA → Reno`
 - Confirmed account was locked — **"Unlock account"** checkbox was ticked on the Account tab
  
