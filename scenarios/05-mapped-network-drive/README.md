@@ -1,7 +1,7 @@
 # Scenario 05 — Cannot Access Network Share
  
 ## Overview
-A user reports their mapped network drive is visible in File Explorer but inaccessible. This scenario covers a full structured network share troubleshooting methodology including connectivity checks, DNS verification, UNC path testing, and share permission diagnosis.
+A user reports their mapped network drive is visible in File Explorer but inaccessible. This scenario covers a full structured network share troubleshooting methodology including connectivity checks, DNS verification, and share permission diagnosis.
  
 ---
  
