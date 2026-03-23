@@ -70,7 +70,7 @@ Account was located in Active Directory, confirmed as locked due to failed login
 | File | Description |
 |---|---|
 | `01_lockout_error.jpg` | User seeing lockout error |
-| `02_ticket_queue,jpg` | Ticket visible in SCP queue |
+| `02_ticket_queue.jpg` | Ticket visible in SCP queue |
 | `03_ticket_assigned.jpg` | Ticket assigned to Hunter R |
 | `04_ticket_response.jpg` | Response to user |
 | `05_ticket_closed.jpg` | Closed ticket |
