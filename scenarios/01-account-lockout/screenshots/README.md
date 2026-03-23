@@ -54,7 +54,6 @@ User attempted to log into COMP1 3 times with the wrong password, triggering the
  
 ### Step 4 — Document and Close Ticket
 - Replied to ticket informing user account was unlocked and temporary password was set
-- Set ticket status to **Pending** awaiting user confirmation
 - User confirmed successful login via client portal
 - Set ticket status to **Resolved**
  
