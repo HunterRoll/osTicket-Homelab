@@ -72,7 +72,7 @@ New user account created for Sarah Miller (smiller) in Active Directory. Account
 | `03_assign_ticket.jpg` | Assigned ticket to Hunter R |
 | `04_ticket_response.jpg` | Responded to ticket |
 | `05_user_created.jpg` | Proof of user creation in AD |
-| `06_ticket_closed` | Ticket closed and status set to resolved |
+| `06_ticket_closed.jpg` | Ticket closed and status set to resolved |
  
 ---
  
