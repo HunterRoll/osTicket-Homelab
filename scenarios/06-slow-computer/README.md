@@ -41,8 +41,8 @@ Opened Task Manager on COMP1:
 ```cmd
 taskmgr
 ```
-- Reviewed **Performance tab** — checked CPU, Memory, and Disk usage percentages
-- Reviewed **Processes tab** — sorted by CPU and Memory to identify any high usage processes
+- Reviewed **Performance tab**: checked CPU, Memory, and Disk usage percentages
+- Reviewed **Processes tab**: sorted by CPU and Memory to identify any high usage processes
 - Posted internal note documenting findings from Task Manager
  
 ### Step 3 — Check Disk Space
