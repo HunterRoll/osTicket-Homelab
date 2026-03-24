@@ -110,4 +110,3 @@ Full performance diagnostic performed on COMP1 covering CPU, memory, disk usage,
 - Startup program management
 - Windows update history review
 - Logical elimination approach to diagnosing performance issues
-- PowerShell as modern replacement for deprecated wmic commands
