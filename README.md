@@ -62,6 +62,7 @@ Simulated help desk scenarios practiced in this environment, documented with scr
 | 03 | [Software Installation Request](scenarios/03-software-installation/README.md) | Software request triaged, approved, and installed via admin elevation through GPO restriction |
 | 04 | [Printer Not Working](scenarios/04-printer-not-working/README.md) | Print Spooler crash diagnosed and resolved via error code 0x800706ba |
 | 05 | [Cannot Access Network Share](scenarios/05-mapped-network-drive/README.md) | Z: drive inaccessible due to Deny permission on share, resolved after full connectivity diagnostic |
+| 06 | [Slow Computer](scenarios/06-slow-computer/README.md) | User reported slow computer / poor performance from workstation |
 
 ## Project Status
 Base installation complete. Currently working on:
