@@ -3,6 +3,22 @@
 All notable changes to this project will be documented here.
 
 ---
+
+## [3.0.0] - 2026-03-23
+### Added
+- Scenario 05: Cannot Access Network Share — simulated Deny permission on HUNTERPRACTICE\Users blocking Z: drive access, performed full connectivity diagnostic (ipconfig, ping by hostname, ping by IP, UNC path test) before identifying root cause in share permissions on WIN-AJ3IQ5KJNUB
+- Scenario 06: Slow Computer / Performance Issues — performed structured performance diagnostic covering Task Manager (CPU, memory, disk), disk space via PowerShell, startup programs, and Windows update history. Disabled unnecessary startup items and performed restart
+- Updated main README.md to include Ticket Scenarios section with links to all scenario folders
+- Created GitHub folder structure and uploaded screenshots for Scenario 05 and Scenario 06
+ 
+### Configuration
+- Created CompanyFiles shared folder on WIN-AJ3IQ5KJNUB at C:\Shares\CompanyFiles
+- Configured GPO Drive Map to map CompanyFiles share as Z: drive for domain users via User Configuration → Preferences → Windows Settings → Drive Maps
+ 
+### Notes
+- wmic commands unavailable on this Windows build — used PowerShell equivalents (Get-Volume, Get-HotFix) for disk and update diagnostics
+
+---
  
 ## [2.0.0] - 2026-03-22
 ### Added
