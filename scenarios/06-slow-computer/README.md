@@ -70,11 +70,7 @@ Get-HotFix | Sort-Object InstalledOn -Descending
  
 ### Step 6 — Apply Fix and Restart
 - Disabled unnecessary startup programs
-- Performed restart to clear background update processes:
-```cmd
-shutdown /r /t 0
-```
-- Posted internal note: *"Disabled unnecessary startup programs and performed restart to clear any background processes from recent updates."*
+- Performed restart to clear background update processes
  
 ### Step 7 — Document and Close Ticket
 - Replied to ticket summarizing all diagnostic steps and actions taken
